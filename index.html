@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="TOSAMA - Toko Sayur Mayur Terlengkap dengan produk segar dan berkualitas"
+    />
+    <title>TOSAMA - Toko Sayur Mayur Terlengkap</title>
+    <link rel="stylesheet" href="styles (1).css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="#" class="logo">
+          <img src="logo.png" alt="TOSAMA Logo" loading="lazy" />
+          TOSAMA
+        </a>
+        <div class="menu-toggle" id="menuToggle">
+          <i class="fas fa-bars"></i>
+        </div>
+        <div class="nav-links" id="navLinks">
+          <a href="#home">Beranda</a>
+          <a href="#products">Produk</a>
+          <a href="#about">Tentang</a>
+          <a href="#contact">Kontak</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-container fade-in">
+        <div class="hero-text">
+          <h1>Selamat Datang di TOSAMA</h1>
+          <p>
+            Toko sayur mayur terlengkap dengan produk segar dan berkualitas
+            untuk kebutuhan dapur Anda setiap hari.
+          </p>
+          <div class="store-hours">
+            <h3><i class="far fa-clock"></i> Jam Operasional</h3>
+            <p>Senin - Minggu: 05:30 - 21:30 WIB</p>
+            <p>Buka setiap hari termasuk hari libur</p>
+          </div>
+          <a
+            href="https://wa.me/6281381818787"
+            class="btn whatsapp-btn"
+            target="_blank"
+          >
+            <i class="fab fa-whatsapp"></i> Hubungi Kami via WhatsApp
+          </a>
+        </div>
+        <div class="hero-image">
+          <img src="foto/fto1.jpeg" alt="Sayuran Segar TOSAMA" loading="lazy" />
+          <div class="emember-preview">
+            <img
+              src="/api/placeholder/150/150"
+              alt="E-member TOSAMA"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+      <h2 class="section-title">Produk Kami</h2>
+      <div class="products-grid" id="productsGrid">
+        <!-- Products will be loaded dynamically via JavaScript -->
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="about-container">
+        <div class="about-text">
+          <h2 class="section-title">Tentang Kami</h2>
+          <p>
+            TOSAMA hadir untuk memberikan pengalaman berbelanja sayur dan buah
+            terbaik dengan kualitas premium dan harga terjangkau.
+          </p>
+          <div class="about-features">
+            <div class="feature-card">
+              <i class="fas fa-leaf feature-icon"></i>
+              <h3>Selalu Segar</h3>
+              <p>Produk dipilih langsung dari petani terpercaya</p>
+            </div>
+            <div class="feature-card">
+              <i class="fas fa-truck feature-icon"></i>
+              <h3>Pengiriman Cepat</h3>
+              <p>Layanan antar ke seluruh area kota</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="contact-container">
+        <h2 class="section-title">Hubungi Kami</h2>
+        <form id="contactForm" class="contact-form">
+          <div class="form-group">
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Nama Anda"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email Anda"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Pesan Anda"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>TOSAMA</h3>
+          <p>
+            Toko Sayur Mayur Terlengkap untuk kebutuhan dapur Anda setiap hari.
+          </p>
+        </div>
+        <div class="footer-section">
+          <h3>Links</h3>
+          <ul class="footer-links">
+            <li><a href="#home">Beranda</a></li>
+            <li><a href="#products">Produk</a></li>
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#contact">Kontak</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Kontak</h3>
+          <p><i class="fas fa-phone"></i> +62 813-8181-8787</p>
+          <p><i class="fas fa-envelope"></i> info@tosama.id</p>
+          <p>
+            <i class="fas fa-map-marker-alt"></i> Jl. Pasar Baru No. 123,
+            Jakarta
+          </p>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2024 TOSAMA. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script (1).js"></script>
+  </body>
+</html>
